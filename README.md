@@ -7,6 +7,8 @@ Rules:
 3. If you're going to use this publicly, please do give me credit and link my github
 
 Instructions:
+1. Download this repo/the repo's files into your pc
+   
 For making the custom labeling: (SKIP IF ALREADY EXPORTED THEM FROM LABEL-STUDIO)
     1. Take pictures of the objects you want to detect(Recommend: Pictures in the same lighting as  the ones when you use your pc camera) and put them in a folder
     2. In the command terminal, create python virtual environment in version 3.12, type 'py -3.12 -m venv CustomYOLO'
