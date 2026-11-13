@@ -1,0 +1,7 @@
+#Please read and follow the README.md file first
+path: #Directory where your label-studio export is placed
+train: images/train
+val: images/val
+
+names:
+  0: Placeholder-Name #What your annotation names are when you labeled them in label-studio 
