@@ -9,10 +9,10 @@ Rules:
 Instructions:
 For making the custom labeling: (SKIP IF ALREADY EXPORTED THEM FROM LABEL-STUDIO)
     1. Take pictures of the objects you want to detect(Recommend: Pictures in the same lighting as  the ones when you use your pc camera) and put them in a folder
-    2. In the command terminal, type 'CustomYOLO\Scripts\activate (Excluding the '')
-    3. In the command terminal again, type 'label-studio'
-        (If it says missing package, type 'python -m pip install label-studio' and also 'python -m pip install ultralytics')
-    4. After step 2, it should open up a localhost website in your browser
+    2. In the command terminal, create python virtual environment in version 3.12, type 'py -3.12 -m venv CustomYOLO'
+    3. Put all the python files in the virtual environment and then, in the command terminal, type 'CustomYOLO\Scripts\activate' (Excluding the '')
+    4. In the command terminal again, type 'python -m pip install label-studio' after it's done, type 'python -m pip install ultralytics' and wait until it's done
+    5. After step 4, type in the command terminal 'label-studio' should open up a localhost website in your browser
     5. In the label-studio website, signup/login
     6. Click on create project, make the name, description, and import the folder you put the pictures in
     7. Go to labeling setup, pick a template, and click add the new label names then save 
